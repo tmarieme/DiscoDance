@@ -1,7 +1,5 @@
 package com.example.discodance;
 
-import com.example.mini_projet.R;
-
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
@@ -17,9 +15,6 @@ public class MenuPrincipalActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu_principal);
-		
-		tv1 = (TextView) findViewById(R.id.textView1);
-		tv1.setText("Elite Beat Agent");
 		
 		mp=MediaPlayer.create(this, R.raw.loop);
 		mp.setLooping(true);

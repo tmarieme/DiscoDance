@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		//setContentView(R.layout.activity_main);
 
 		MainActivity.vi = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-		Intent intent = new Intent(MainActivity.this, MenuPrincipal.class);
+		Intent intent = new Intent(MainActivity.this, MenuPrincipalActivity.class);
 		startActivity(intent);
 		finish();
 	}

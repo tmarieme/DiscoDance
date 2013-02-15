@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.discodance.MenuPrincipal"
+            android:name="com.example.discodance.MenuPrincipalActivity"
             android:label="@string/title_activity_menu_principal" >
         </activity>
     </application>
